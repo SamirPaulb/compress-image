@@ -1,6 +1,6 @@
-# CanvasCompress
+# Compress-Image
 
-Compressing image with HTML5 canvas.
+Compressing image with HTML5.
 
 ## Browser Compatibility
 
