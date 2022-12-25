@@ -1,0 +1,27 @@
+{
+  "name": "Compress Images - PNG, JPG, GIF, WEBP, SVG, TIFF",
+  "description": "Compress PNG, JPG, GIF, WEBP, SVG, TIFF, BMP images online in seconds for free! Resize images by pixels or percentages quality or Width Height.",
+  "main": "dist/canvas-compress.js",
+  "authors": [
+    "Samir Paul <https://twitter.com/SamirPaulb>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "image",
+    "compress"
+  ],
+  "homepage": "https://github.com/SamirPaul1/compress-image",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "exif-js": "~2.1.1"
+  }
+}

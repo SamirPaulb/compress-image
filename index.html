@@ -1,107 +1,87 @@
 <!DOCTYPE html>
-<!-- code by SAMIR PAUL  -->
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Registration Form | Samir Paul</title>
-  
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-      <link rel="stylesheet" href="style.css">
+    <!-- Primary Meta Tags -->
+    <title>Compress Images - PNG, JPG, GIF, WEBP, SVG, TIFF</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="title" content="Compress Images - PNG, JPG, GIF, WEBP, SVG, TIFF">
+    <meta name="description" content="Compress PNG, JPG, GIF, WEBP, SVG, TIFF, BMP images online in seconds for free! Resize images by pixels or percentages quality or Width Height">
+    <meta name="keywords" content="Compress PNG, JPG, GIF, WEBP, SVG, TIFF, BMP images online in seconds for free Resize images by pixels or percentages quality or Width Height, Image, compress image without losing quality, compress, resize, crop, convert, jpeg, png, gif, tiff, raw, compress image, image compression, reduce image file size, make image smaller, image compression, compress image online, picture,jpeg,png,gif, compress JPG, compress jpeg, compress SVG, compress GIF, compress tiff, compress BMP, compress WEBP, compress online, compress all image formats, compress all image extension, online file compression, file compressor, decompressor, samirpaul, SamirPaul1, SamirPaulb, Samir Paul, github, gitpages, website, compression algorithm, lossless data, file files fileformat filetype compress online compression, Online file compressor, online file compression, compress videos, compress PDF, compress files online, reduce image, resize images, bulk image compression, reduce dpi, lossless compression python, ">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="fVqw6aziPBBMvC50fkQ3A6y38AhIfhUhfDyIzqqdGTs" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Samir Paul">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://samirpaul1.github.io/compress-image">
+    <meta property="og:title" content="Compress Images - PNG, JPG, GIF, WEBP, SVG, TIFF">
+    <meta property="og:description" content="Compress PNG, JPG, GIF, WEBP, SVG, TIFF, BMP images online in seconds for free! Resize images by pixels or percentages quality or Width Height.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/SamirPaulb/assets/main/compress-image-without-losing-quality-samirpaul1.jpg">
 
-  
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://samirpaul1.github.io/compress-image">
+    <meta property="twitter:title" content="Compress Images - PNG, JPG, GIF, WEBP, SVG, TIFF">
+    <meta property="twitter:description" content="Compress PNG, JPG, GIF, WEBP, SVG, TIFF, BMP images online in seconds for free! Resize images by pixels or percentages quality or Width Height.">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/SamirPaulb/assets/main/compress-image-without-losing-quality-samirpaul1.jpg">
+    <link rel="canonical" href="https://samirpaul1.github.io/compress-image"/>
+    
+    <style>
+        input[type="range"] {
+            cursor: ew-resize;
+        }
+
+        figure {
+            float: left;
+            max-width: 500px;
+            max-height: 500px;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
-
-<body background="bg.jpg">
-
-  <div class="row">
-  <section class="section">
-    <header>
-      <h3>Register</h3>
-      <h4>Please fill your information in this form</h4>
-    </header>
-    <main>
-      <form>
-        <div class="form-item box-item">
-          <input type="text" name="name" class="tx1" placeholder="𝙉𝙖𝙢𝙚" data-required>
-          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-        </div>
-        <div class="form-item box-item">
-          <input type="email" name="email" class="tx1" placeholder="𝙀𝙢𝙖𝙞𝙡" data-email data-required>
-          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-          <small class="errorEmail"><i class="fa fa-asterisk" aria-hidden="true"></i> email is not valid</small>
-        </div>
-        <div class="form-item box-item">
-          <div class="form-item-triple">
-            <div class="radio-label"> 
-              <label class="label">𝙂𝙚𝙣𝙙𝙚𝙧</label>
-            </div>
-            <div class="form-item"> 
-              <input id="Male" type="radio" name="gender" value="Male" data-once>
-              <label for="Male">Male</label>
-            </div>
-            <div class="form-item"> 
-              <input id="Female" type="radio" name="gender" value="Female" data-once>
-              <label for="Female">Female</label>
-            </div>
-          </div>
-          <small class="errorOnce"><i class="fa fa-asterisk" aria-hidden="true"></i> choose at least one</small>
-        </div>
-        <div class="form-item box-item">
-          <div class="form-item-triple">
-            <div class="radio-label"> 
-              <label class="label">𝘼𝙘𝙘𝙤𝙪𝙣𝙩 𝙏𝙮𝙥𝙚</label>
-            </div>
-            <div class="form-item"> 
-              <input id="sponsored" type="radio" name="gender2" value="sponsored" data-once>
-              <label for="sponsored">Free</label>
-            </div>
-            <div class="form-item"> 
-              <input id="paid" type="radio" name="gender2" value="paid" data-once>
-              <label for="paid">Pro</label>
-            </div>
-          </div>
-          <small class="errorOnce"><i class="fa fa-asterisk" aria-hidden="true"></i> choose at least one</small>
-        </div>
-        <div class="form-item box-item">
-          <input type="text" name="username1" placeholder="𝙐𝙨𝙚𝙧𝙣𝙖𝙢𝙚" data-required>
-          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-        </div>
-        <div class="form-item-double box-item">
-          
-          <div class="form-item">
-            <input type="text" name="zCode" placeholder="𝙕𝙞𝙥 𝘾𝙤𝙙𝙚" data-required data-number>
-            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
-          </div>
-        </div>
-        <div class="form-item box-item">
-          <input type="text" name="phone" placeholder="𝙋𝙝𝙤𝙣𝙚" data-required data-number data-count="10">
-          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-          <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
-          <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
-        </div>
-        <div class="form-item">
-          <span id="submit" class="submit">Submit</span>
-        </div>
-      </form>
-    </main>
-    <footer>
-      <p>Already have an account? <a href="#">Login</a></p>
-    </footer>
-    <i class="wave"></i>
-  </section>
-</div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  
-
-    <script  src="function.js"></script>
-
-
-
-
+<body>
+    <p>
+        <label for="quality">quality: </label>
+        <input type="range" name="quality" id="quality" min="0" max="1" step="0.01">
+        <span class="option-value"></span>
+    </p>
+    <p>
+        <label for="width">max width: </label>
+        <input type="range" name="width" id="width" min="100" max="1000">
+        <span class="option-value"></span>
+    </p>
+    <p>
+        <label for="height">max height: </label>
+        <input type="range" name="height" id="height" min="100" max="1000">
+        <span class="option-value"></span>
+    </p>
+    <p>
+        <input type="file" id="upload" accept="image/*">
+    </p>
+    <div class="preview">
+        <figure>
+            <figcaption>source:</figcaption>
+            <pre id="source-info"></pre>
+            <img src="" id="source">
+        </figure>
+        <figure>
+            <figcaption>result:</figcaption>
+            <pre id="result-info"></pre>
+            <img src="" id="result">
+        </figure>
+    </div>
+    <script src="bower_components/exif-js/exif.js"></script>
+    <script src="dist/canvas-compress.js"></script>
+    <script src="main.js"></script>
 </body>
-
 </html>
